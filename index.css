@@ -37,13 +37,7 @@ img.spiderman-profile-pic{
     font-size: x-large;
 }
 
-img.doc-ock {
-    display:block;
-    margin:auto 5px;
-    height: 120px;
-    width: 80px ;
-    object-fit: contain;
-}
+
 
 
 ol {
@@ -72,9 +66,41 @@ ul {
 abilities-and-attacks {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 33%;
     
     
+}
+
+img.enemies {
+    display:flex;
+    margin:auto;
+    height: 150px;
+    width: 150px ;
+
+    
+}
 
 
+.gallery{
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    
+    border-color: black;
+    margin-right: 10px;
+    
+    
+}
+.fight--1 {
+    background-color:darkseagreen
+}
+
+.fight--2{
+    background-color: chocolate;
+}
+
+.fight--3{
+    background-color: rgb(188, 26, 213);
 }
